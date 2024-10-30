@@ -1,0 +1,172 @@
+# Copyright (C) 2014 Login Protection
+# This file is distributed under the same license as the Login Security Solution package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Login Protection 0.2.4\n"
+"Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
+"POT-Creation-Date: 2014-04-25 21:26+0900\n"
+"PO-Revision-Date: 2014-04-25 21:26+0900\n"
+"Last-Translator: couhie\n"
+"Language-Team: Login Protection\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin.php:15 ../admin.php:83 ../admin.php:331
+msgid "Settings"
+msgstr "設定"
+
+#: ../admin.php:33
+#, php-format
+msgid ""
+"%s must be activated via the Network Admin interface when WordPress is in "
+"multistie network mode."
+msgstr ""
+"WordPressがマルチサイトネットワークモードの場合、%sはネットワーク管理インター"
+"フェースを介してアクティブにする必要があります。"
+
+#: ../admin.php:126
+msgid "Login Block"
+msgstr "ログインブロック"
+
+#: ../admin.php:133
+msgid "Basic Authentication"
+msgstr "Basic認証"
+
+#: ../admin.php:153
+msgid "Set the Basic Authentication to the login page of the admin pages."
+msgstr "管理者用ログインページにBasic認証を設定します"
+
+#: ../admin.php:160
+msgid "Protect an admin login page from unauthorized access."
+msgstr "不正アクセスから管理者用ログインページを守ります"
+
+#: ../admin.php:169
+msgid "Block enable"
+msgstr "ブロック有効設定"
+
+#: ../admin.php:170
+msgid "Block setting of access that fails authentication."
+msgstr "認証に失敗したアクセスのブロック設定"
+
+#: ../admin.php:172
+msgid "Off, block is disabled."
+msgstr "Off, ブロック無効"
+
+#: ../admin.php:173
+msgid "On, block is enabled."
+msgstr "On, ブロック有効"
+
+#: ../admin.php:177
+msgid "Block threshold"
+msgstr "ブロック閾値"
+
+#: ../admin.php:178
+msgid ""
+"Number of times to be blocked If the authentication fails continuously. (Do "
+"not block when set to '0'.)"
+msgstr "ブロック対象となる認証失敗回数 ('0'はブロックしない)"
+
+#: ../admin.php:188
+msgid "Block interval"
+msgstr "ブロック間隔"
+
+#: ../admin.php:189
+msgid ""
+"Seconds of interval to reset the continuous authentication failure count. "
+"(Do not reset when set to '0'.)"
+msgstr "認証の失敗回数をリセットするまでの秒数 ('0'はリセットしない)"
+
+#: ../admin.php:199
+msgid "Block time"
+msgstr "ブロック時間"
+
+#: ../admin.php:200
+msgid "Seconds to block the authentication. (Do not release when set to '0'.)"
+msgstr "認証をブロックする秒数 ('0'はブロックを解除しない)"
+
+#: ../admin.php:210
+msgid "Block IP"
+msgstr "ブロックIP"
+
+#: ../admin.php:211
+msgid "Ip address list of blocking. (Separate by newline.)"
+msgstr "ブロックしているIPアドレス (複数入力時は改行区切り)"
+
+#: ../admin.php:216
+msgid "User"
+msgstr "ユーザー"
+
+#: ../admin.php:217
+msgid "User of Basic Authentication."
+msgstr "Basic認証のユーザー"
+
+#: ../admin.php:228
+msgid "Password"
+msgstr "パスワード"
+
+#: ../admin.php:229
+#, php-format
+msgid "Password of Basic Authentication. Recommended : [ %s ]."
+msgstr "Basic認証のパスワード (推奨 : [ %s ])"
+
+#: ../admin.php:289 ../admin.php:300 ../admin.php:307
+msgid "Default:"
+msgstr "初期値"
+
+#: ../admin.php:323
+msgid "Measures of unauthorized access is disabled!"
+msgstr "不正アクセスの対策が無効になっています。"
+
+#: ../admin.php:327
+msgid "Please enable block of unauthorized login access."
+msgstr "不正なログインアクセスのブロックを有効にしてください。"
+
+#: ../admin.php:508
+msgid "was not a scalar."
+msgstr "スカラーではありません"
+
+#: ../admin.php:521
+msgid "must be '0' or '1'."
+msgstr "'0' か '1' を指定してください"
+
+#: ../admin.php:533
+msgid "must be an integer."
+msgstr "数値で入力してください"
+
+#: ../admin.php:545
+msgid "must be alphanumeric."
+msgstr "半角英数字で入力してください"
+
+#: ../admin.php:557
+msgid "include one or more of each upper and lower case letters and numbers."
+msgstr "英大文字、英小文字、数字をそれぞれ1つ以上含めてください"
+
+#: ../admin.php:570
+#, php-format
+msgid "at least %s characters."
+msgstr "%s 文字以上で入力してください"
+
+#: ../admin.php:583
+#, php-format
+msgid "is less than %s characters."
+msgstr "%s 文字以下で入力してください"
+
+#: ../login-protection.php:180
+msgid "Authorization Required."
+msgstr "認証が必要です"
+
+#: ../login-protection.php:189
+msgid "Your remote addr is empty!"
+msgstr "リモートIPアドレスが設定されていません"
+
+#: ../login-protection.php:196 ../login-protection.php:217
+#, php-format
+msgid "Has been blocked. [%s]"
+msgstr "ブロックされています [%s]"
